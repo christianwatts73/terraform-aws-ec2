@@ -1,0 +1,17 @@
+name: My Workflow
+
+
+
+on: [push]
+
+
+
+jobs:
+
+  build:
+
+    runs-on: [ "Jarviz" ]  # Replace "my-custom-runner" with the label of your self-hosted runner
+
+    steps:
+
+      - run: echo "Running on my custom runner!"
